@@ -74,15 +74,15 @@ public class Main {
             narray[1] = n2;
 
             System.out.println("Saída GreaterThan: "  + Util.countGreaterThan(narray, n));
-//            NaturalNumber nn = new NaturalNumber(-12);
-//
-//            NaturalNumber nn2 = new NaturalNumber(-2);
-//
-//            NaturalNumber  barray [] = new NaturalNumber[2];
-//            barray[0] = nn;
-//            barray[1] = nn2;
-//
-//            System.out.println(Util.countGreaterThan(barray, nn));
+            NaturalNumber nn = new NaturalNumber(-12);
+
+            NaturalNumber nn2 = new NaturalNumber(-2);
+
+            NaturalNumber  barray [] = new NaturalNumber[2];
+            barray[0] = nn;
+            barray[1] = nn2;
+
+            System.out.println(Util.countGreaterThan(barray, nn));
         }
         catch (Exception e) {
             e.printStackTrace();
